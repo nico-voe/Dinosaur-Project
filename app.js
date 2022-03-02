@@ -146,7 +146,7 @@ button.addEventListener("click", function generateTiles() {
       // Create HTML Elements for Tiles
       const grid = document.getElementById("grid");
       const card = document.createElement("div");
-      const header = document.createElement("h4");
+      const header = document.createElement("h3");
       const picture = document.createElement("img");
       const fact = document.createElement("p");
 
