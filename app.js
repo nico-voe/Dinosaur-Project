@@ -46,7 +46,7 @@ function compareWeight(dinoWeight, humanWeight) {
     return `You are ${ratio.toFixed(1)} times heavier than the dino!`;
   }
   else {
-    return "You weigh the same.";
+    return "Enter your weight to compare with that Dino!";
   }
 }
 
@@ -62,7 +62,7 @@ function compareHeight(dinoHeight, humanHeight) {
   } else if (ratio < 1) {
     return `You are ${ratio.toFixed(1)} times heavier than the dino!`;
   } else {
-    return "You weigh the same!";
+    return "You have the same height!";
   }
 }
 
